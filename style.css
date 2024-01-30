@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600&family=Orbitron:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Exo', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.banner {
+    color: #FFF;
+    position: relative;
+    min-height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    background-image: url("Assets/images/bg2.jpg");
+    background-position: top right;
+    background-size: cover;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul {
+    width: 90vw;
+    height: auto;
+    /* margin: auto; */
+    padding-top: 3vh;
+    /* background-color: red; */
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+ul li {
+    padding: 1%;
+    color: white;
+
+}
+
+ul li:hover {
+    background-color: rgb(219, 219, 219);
+    transition: width 0.5s;
+}
+
+.hii {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hii p {
+    margin-top: 340px;
+    /* width:auto; */
+    font-weight: 300;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: 26px;
+    /* text-align: center; */
+    margin-right: 26%;
+    background-color: #ffffff24;
+    padding: 10px;
+
+}
+
+.content {
+    /* margin-top: 10px; */
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p {
+    padding: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    background-color: #ffffff24;
+
+}
+
+@media only screen and (max-width: 455px) {
+    * {
+        
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;
+    }
+    .banner {
+        background-image: url("Assets/images/bg1.jpg");
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .hii p {
+        margin-top: 300px;
+        color: #000;
+        background-color: #b5b5b53d;
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        color: #4b4b4b;
+        font-size: 23px;
+        padding: 10px;
+        margin: 0;
+        background-color: #b5b5b53d;
+    }
+
+    .content {
+        margin: 10px;
+    }
+
+    nav ul {
+        justify-content: center;
+        background-color: red;
+        width: 100%;
+        padding: 10px;
+        background-color: #b5b5b53d;
+    }
+
+    ul li {
+        color: rgb(80, 80, 80);
+        font-size: 16px;
+      
+    }
+}
